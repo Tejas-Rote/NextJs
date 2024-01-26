@@ -1,0 +1,14 @@
+-> Page router 
+    pages folder is used to store all the pages used in the website. 
+    dynamic pages can be created using [].js notations 
+    file strucutre can be used for creating a nested pages .
+    index.js files are used to notify NextJs that this is a page.
+    router.query can be used to fetch data directly from backend when dynamic pages are created. 
+    module.css files are used to add css to js / html.
+    using [...slug].js can help us to create and catch all routes used between the 2 pages example see -> blogs page  for url "/blob/2022/22/" it will keep 2022 and 22 as slug in an array when u use router  query
+    <link /> is used for navigating to pages in NextJs , we need to import this from 'next/link'. Use this instead of any third party library or anchor tag. It also pre-cache the links.
+    in href we can either add path to the page or add object with pathname and query (has id ) to navigate -> see client's page.
+    to programmaticaly navigate can use router .push() or .replace can be used and here also object or pathname string can be used to navigate. 
+    Custom Error page can be added using error.js file .
+    Custom Not Found page can be added using not-found.js file.
+    Custom 404 page can be added using 404.js file in the root path directory and can be used to add custom content
