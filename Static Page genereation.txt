@@ -1,0 +1,7 @@
+there are 2 forms for pre rendering 
+    - static page generations and server sider rendering 
+Static pages    
+    nextjs prerenders static pages , hence we can see some  data even before rendering page to the client
+    in react app we get an empty page on first render that is , no data is present when we visit a page for the first time.
+    getStaticProps() can be used to mention what data that must be present in static page generation.
+    we can even fetch some data before creating a static page using the same getStaticProps() function , which also an async function hence we can create a promise and using that we can later create a static page.
