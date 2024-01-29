@@ -12,3 +12,5 @@
     Custom Error page can be added using error.js file .
     Custom Not Found page can be added using not-found.js file.
     Custom 404 page can be added using 404.js file in the root path directory and can be used to add custom content
+    __app.js file can be used as the root page.
+    
